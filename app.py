@@ -4,9 +4,9 @@ import pandas as pd
 import networkx as nx
 from PIL import Image
 
-st.write("Critical Path Method")
+st.title("Critical Path Method")
 
-csv_data_input = st.file_uploader("Upload file csv", type="csv")
+csv_data_input = st.file_uploader("Upload file csv disini", type="csv")
 print(csv_data_input)
 if (csv_data_input != None) :
 
@@ -161,6 +161,9 @@ if (csv_data_input != None) :
                     arrowprops=dict(arrowstyle="wedge"))
     ax.axis('off')
     
+
+    st.write("Jalur Kritis Aktivitas : ",*crt)
     plt.savefig('image.png')
     image = Image.open('./image.png')
     st.image(image)
+    
