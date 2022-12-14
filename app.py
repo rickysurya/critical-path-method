@@ -4,7 +4,7 @@ import pandas as pd
 import networkx as nx
 from PIL import Image
 
-st.title("Critical Path Method")
+st.title("Penjadwalan dengan Critical Path Method")
 
 csv_data_input = st.file_uploader("Upload file csv disini", type="csv")
 print(csv_data_input)
