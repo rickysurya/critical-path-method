@@ -1,4 +1,4 @@
-# Inventory Management App
+# Critical Path Method
 A very simple web app built with streamlit to demonstrate critical path method diagram from a csv file
 
 ### How to run
