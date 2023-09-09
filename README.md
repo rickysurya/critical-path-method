@@ -1,16 +1,16 @@
 Installation
 Clone the Repository
-```
+```bash
 git clone https://github.com/rickysurya/critical-path-method.git
 ```
 
 Install the Dependencies
-```
+```bash
 pip install -r requirements.txt
 ```
 
 Launch the App
-```
+```bash
 streamlit run app.py
 ```
 
