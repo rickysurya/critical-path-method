@@ -1,24 +1,14 @@
-Installation
-Clone the Repository
-```shell
-git clone https://github.com/rickysurya/critical-path-method.git
-```
+# Inventory Management App
+A very simple web app built with streamlit to demonstrate critical path method diagram from a csv file
+
+### How to run
 
 Install the Dependencies
 ```shell
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Launch the App
 ```shell
-streamlit run app.py
+$ streamlit run app.py
 ```
-
-Importing a CSV File
-Upload CSV Data: Once the app is running, you'll see an interface with a button.
-Click to Upload: Click on the "Upload CSV File" button and select the CSV file containing your project task data from your local storage.
-Data Import: The app will load and process the data from the CSV file, displaying it within the app's interface.
-
-Analyzing the Project
-Calculate Critical Path: After importing your data, you'll find a button on the interface and the app will display the critical path diagram.
-
